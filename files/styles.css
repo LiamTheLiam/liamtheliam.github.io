@@ -25,8 +25,8 @@ p {
 	font-style: normal;
 }
 font-face {
-	font-family: Open Sans Italic;
+	font-family: Open Sans;
 	src: url("../liamtheliam.git.hub.io/files/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format('truetype');
-	font-weight: italic;
-	font-style: normal;
+	font-weight: normal;
+	font-style: italic;
 }
