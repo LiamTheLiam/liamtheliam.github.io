@@ -20,22 +20,14 @@ p {
 	font-family: open_sansregular;
 	font-size: 24px
 }
-@font-face {
-    font-family: 'bungee_spice_regularregular';
-    src: url('../bungeespice-regular-webfont.woff2') format('woff2'),
-         url('../bungeespice-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
 
 
 @font-face {
     font-family: 'open_sansregular';
-    src: url('../opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
-         url('../opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    src: url('fonts/opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('fonts/opensans-variablefont_wdthwght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -46,8 +38,8 @@ p {
 
 @font-face {
     font-family: 'open_sansitalic';
-    src: url('../opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
-         url('../opensans-italic-variablefont_wdthwght-webfont.woff') format('woff');
+    src: url('fonts/opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('fonts/opensans-italic-variablefont_wdthwght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -58,8 +50,8 @@ p {
 
 @font-face {
     font-family: 'bebas_neueregular';
-    src: url('../bebasneue-regular-webfont.woff2') format('woff2'),
-         url('../bebasneue-regular-webfont.woff') format('woff');
+    src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
