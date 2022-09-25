@@ -4,11 +4,12 @@ body {
 h1 {
 	color: white;
 	font-family: bebas_neueregular;
-	font-size: 56px
+	font-size: 58px
 }
 h2 {
 	color: white;
 	font-family: bebas_neueregular;
+	font-size: 48px
 }
 h3 {
 	color: white;
@@ -17,7 +18,7 @@ h3 {
 p {
 	color: white;
 	font-family: open_sansregular;
-	font-size: 28px
+	font-size: 24px
 }
 @font-face {
     font-family: 'bungee_spice_regularregular';
