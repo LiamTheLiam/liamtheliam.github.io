@@ -21,19 +21,19 @@ p {
 }
 @font-face {
 	font-family: Open Sans;
-	src: url("../../liamtheliam.git.hub.io/files/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+	src: url("files/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: Bebas Neue;
-	src: url("../../liamtheliam.git.hub.io/files/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
+	src: url("files/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: Bungee Spice;
-	src: url("../../liamtheliam.git.hub.io/files/fonts/Bungee_Spice/BungeeSpice-Regular.ttf") format('truetype');
+	src: url("files/fonts/Bungee_Spice/BungeeSpice-Regular.ttf") format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
