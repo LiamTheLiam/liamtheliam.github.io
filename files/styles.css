@@ -26,12 +26,6 @@ p {
 	font-style: normal;
 }
 @font-face {
-	font-family: Open Sans;
-	src: url("../../liamtheliam.git.hub.io/files/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-@font-face {
 	font-family: Bebas Neue;
 	src: url("../../liamtheliam.git.hub.io/files/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
 	font-weight: normal;
