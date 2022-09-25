@@ -3,37 +3,63 @@ body {
 }
 h1 {
 	color: white;
-	font-family: Bebas Neue;
+	font-family: bebas_neueregular;
 	font-size: 56px
 }
 h2 {
 	color: white;
-	font-family: Bebas Neue;
+	font-family: bebas_neueregular;
 }
 h3 {
 	color: white;
-	font-family: Arial;
+	font-family: open_sansregular;
 }
 p {
 	color: white;
-	font-family: Open Sans;
+	font-family: open_sansregular;
 	font-size: 28px
 }
 @font-face {
-	font-family: Open Sans;
-	src: url("files/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'bungee_spice_regularregular';
+    src: url('bungeespice-regular-webfont.woff2') format('woff2'),
+         url('bungeespice-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
+
+
 @font-face {
-	font-family: Bebas Neue;
-	src: url("files/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'open_sansregular';
+    src: url('opensans-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('opensans-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+
+
+
 @font-face {
-	font-family: Bungee Spice;
-	src: url("files/fonts/Bungee_Spice/BungeeSpice-Regular.ttf") format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'open_sansitalic';
+    src: url('opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
+         url('opensans-italic-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
