@@ -3,12 +3,12 @@ body {
 }
 h1 {
 	color: white;
-	font-family: Arial;
+	font-family: Bebas Neue;
 	font-size: 56px
 }
 h2 {
 	color: white;
-	font-family: Arial;
+	font-family: Bebas Neue;
 }
 h3 {
 	color: white;
@@ -17,7 +17,7 @@ h3 {
 p {
 	color: white;
 	font-family: Open Sans;
-	font-size: 24px
+	font-size: 28px
 }
 @font-face {
 	font-family: Open Sans;
@@ -30,4 +30,10 @@ p {
 	src: url("../liamtheliam.git.hub.io/files/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf") format('truetype');
 	font-weight: normal;
 	font-style: italic;
+}
+@font-face {
+	font-family: Bebas Neue;
+	src: url("../liamtheliam.git.hub.io/files/fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
