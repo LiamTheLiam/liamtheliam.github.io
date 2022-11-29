@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/obstacle-course-game.loader.js";
       var config = {
-        dataUrl: buildUrl + "/obstacle-course-game.data.gz",
-        frameworkUrl: buildUrl + "/obstacle-course-game.framework.js.gz",
-        codeUrl: buildUrl + "/obstacle-course-game.wasm.gz",
+        dataUrl: buildUrl + "/obstacle-course-game.data",
+        frameworkUrl: buildUrl + "/obstacle-course-game.framework.js",
+        codeUrl: buildUrl + "/obstacle-course-game.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Liam Maguire",
         productName: "Obstacle Course",
@@ -97,7 +97,7 @@
         canvas.style.height = "720px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/obstacle-course-game.jpg.gz') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/obstacle-course-game.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
