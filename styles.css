@@ -1,6 +1,9 @@
 body {
 	background-color: #2a2a2e;
-    font-family: 'open_sans', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+}
+text {
+    font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
 }
 h1 {
 	color: white;
