@@ -1,6 +1,8 @@
 body {
 	background-color: #2a2a2e;
     font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+    margin-left: 235px;
+    margin-right: 235px;
 }
 text {
     color: white;
