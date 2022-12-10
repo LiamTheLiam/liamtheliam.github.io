@@ -1,8 +1,6 @@
 body {
 	background-color: #2a2a2e;
     font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
-    margin-left: 235px;
-    margin-right: 235px;
 }
 text {
     color: white;
@@ -11,22 +9,25 @@ text {
 h1 {
 	color: white;
 	font-family: 'bebas_neueregular', Arial, sans-serif;
-	font-size: 72px
+	font-size: 72px;
+    text-align: center;
 }
 h2 {
 	color: white;
 	font-family: 'bebas_neueregular', Arial, sans-serif;
-	font-size: 48px
+	font-size: 48px;
+    text-align: center;
 }
 h3 {
 	color: white;
 	font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
-	font-size: 32px
+	font-size: 32px;
+    text-align: center;
 }
 p {
 	color: white;
 	font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
-	font-size: 24px
+	font-size: 24px;
 }
 a {
     color: white;
