@@ -1,5 +1,6 @@
 body {
 	background-color: #2a2a2e;
+    color: white;
     font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
 }
 text {
@@ -33,6 +34,22 @@ a {
     color: white;
 }
 
+.media_container{
+    text-align: center;
+}
+.hyperlink{
+    text-decoration: none;
+}
+.hyperlink:hover{
+    color: lightskyblue;
+}
+.bodytext{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.paragraph_center{
+    text-align: center;
+}
 
 
 
@@ -45,9 +62,6 @@ a {
 
 }
 
-
-
-
 @font-face {
     font-family: 'open_sans';
     src: url('fonts/opensans-italic-variablefont_wdthwght-webfont.woff2') format('woff2'),
@@ -57,9 +71,6 @@ a {
 
 }
 
-
-
-
 @font-face {
     font-family: 'bebas_neueregular';
     src: url('fonts/bebasneue-regular-webfont.woff2') format('woff2'),
@@ -68,3 +79,4 @@ a {
     font-style: normal;
 
 }
+
