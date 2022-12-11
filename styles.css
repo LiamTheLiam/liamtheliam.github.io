@@ -9,15 +9,17 @@ text {
 }
 h1 {
 	color: white;
-	font-family: 'bebas_neueregular', Arial, sans-serif;
+	font-family: 'Comfortaa', Arial, sans-serif;
 	font-size: 72px;
     text-align: center;
+    font-weight: 300;
 }
 h2 {
 	color: white;
-	font-family: 'bebas_neueregular', Arial, sans-serif;
+	font-family: 'Comfortaa', Arial, sans-serif;
 	font-size: 48px;
     text-align: center;
+    font-weight: 300;
 }
 h3 {
 	color: white;
@@ -32,6 +34,12 @@ p {
 }
 a {
     color: white;
+}
+header{
+    position: absolute;
+    top: 10px;
+    width: 25%;
+    border-radius: 10px;
 }
 
 .media_container{
@@ -49,6 +57,15 @@ a {
 }
 .paragraph_center{
     text-align: center;
+}
+.copyright{
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    border-color: #2e2e2e;
+    border: 1px;
+    border-style:ridge;
+    border-radius: 2px;
 }
 
 
@@ -80,3 +97,18 @@ a {
 
 }
 
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Regular.woff2') format('woff2'),
+         url('fonts/Comfortaa-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Light.woff2') format('woff2'),
+         url('fonts/Comfortaa-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
