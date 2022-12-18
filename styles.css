@@ -38,8 +38,7 @@ a {
 header{
     position: absolute;
     top: 10px;
-    width: 25%;
-    border-radius: 10px;
+    width: 480px;
 }
 
 .media_container{
@@ -52,8 +51,8 @@ header{
     color: lightskyblue;
 }
 .bodytext{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 .paragraph_center{
     text-align: center;
