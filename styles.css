@@ -2,6 +2,7 @@ body {
 	background-color: #2a2a2e;
     color: white;
     font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
+		font-size: 16px;
 }
 text {
     color: white;
@@ -11,21 +12,23 @@ h1 {
 	color: white;
 	font-family: 'Comfortaa', Arial, sans-serif;
 	font-size: 72px;
-    text-align: center;
-    font-weight: 300;
+  text-align: center;
+  font-weight: 300;
 }
 h2 {
 	color: white;
 	font-family: 'Comfortaa', Arial, sans-serif;
 	font-size: 48px;
-    text-align: center;
-    font-weight: 300;
+  text-align: center;
+  font-weight: 300;
+	margin: auto;
 }
 h3 {
 	color: white;
-	font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
-	font-size: 32px;
-    text-align: center;
+	font-family: 'Roboto', 'open_sans', Helvetica, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+  text-align: center;
 }
 p {
 	color: white;
@@ -35,29 +38,30 @@ p {
 a {
     color: white;
 }
-header{
+header {
     position: absolute;
     top: 10px;
     width: 480px;
 }
 
-.media_container{
+.media_container {
     text-align: center;
 }
-.hyperlink{
+.hyperlink {
     text-decoration: none;
+		margin: auto;
 }
-.hyperlink:hover{
+.hyperlink:hover {
     color: lightskyblue;
 }
-.bodytext{
+.bodytext {
     margin-left: 6vw;
     margin-right: 6vw;
 }
-.paragraph_center{
+.paragraph_center {
     text-align: center;
 }
-.copyright{
+.copyright {
     font-size: 15px;
     position: fixed;
     bottom: 0;
@@ -65,8 +69,16 @@ header{
     border: 1px;
     border-style:ridge;
     border-radius: 2px;
+		font-family: Verdana, Arial, sans-serif;
 }
-
+.center_links {
+	margin: 0 auto;
+	display: table;
+	text-align: center;
+}
+.center_links_projects {
+	margin-top: 50px;
+}
 
 
 @font-face {
@@ -110,4 +122,11 @@ header{
          url('fonts/Comfortaa-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('fonts/Roboto.ttf');
+	font-weight: 400;
+	font-style: normal;
 }
