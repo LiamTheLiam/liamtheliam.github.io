@@ -41,7 +41,7 @@ a {
 header {
     position: absolute;
     top: 10px;
-    width: 480px;
+    width: auto;
 }
 
 .media_container {
