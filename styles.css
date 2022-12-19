@@ -76,8 +76,16 @@ header {
 	display: table;
 	text-align: center;
 }
+.center_links_index {
+	margin-top: 50px;
+}
 .center_links_projects {
 	margin-top: 50px;
+}
+.youtube_video_title_index {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 
