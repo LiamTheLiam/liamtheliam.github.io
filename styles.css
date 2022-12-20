@@ -5,18 +5,15 @@ body {
 		font-size: 16px;
 }
 text {
-    color: white;
     font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
 }
 h1 {
-	color: white;
 	font-family: 'Comfortaa', Arial, sans-serif;
 	font-size: 72px;
   text-align: center;
   font-weight: 300;
 }
 h2 {
-	color: white;
 	font-family: 'Comfortaa', Arial, sans-serif;
 	font-size: 48px;
   text-align: center;
@@ -24,19 +21,18 @@ h2 {
 	margin: auto;
 }
 h3 {
-	color: white;
 	font-family: 'Roboto', 'open_sans', Helvetica, 'Helvetica Neue', Arial, sans-serif;
 	font-size: 36px;
 	font-weight: 400;
   text-align: center;
 }
 p {
-	color: white;
 	font-family: 'open_sans', Helvetica, 'Helvetica Neue', 'Roboto', Arial, sans-serif;
 	font-size: 24px;
 }
 a {
     color: white;
+		text-decoration: none;
 }
 header {
     position: absolute;
@@ -57,6 +53,7 @@ header {
 .bodytext {
     margin-left: 6vw;
     margin-right: 6vw;
+		margin-top: 40px;
 }
 .paragraph_center {
     text-align: center;
@@ -67,7 +64,7 @@ header {
     bottom: 0;
     border-color: #2e2e2e;
     border: 1px;
-    border-style:ridge;
+    border-style: ridge;
     border-radius: 2px;
 		font-family: Verdana, Arial, sans-serif;
 }
@@ -86,6 +83,23 @@ header {
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+.randomer_stuff_link {
+	margin: 50px auto;
+	display: table;
+	text-align: center;
+}
+.randomer_item_container {
+	margin: 50px auto;
+	display: table;
+}
+.randomer_projects_link {
+	margin: 0 auto;
+	display: table;
+	text-align: center;
+}
+.hyperlink_underline {
+	text-decoration: underline;
 }
 
 
