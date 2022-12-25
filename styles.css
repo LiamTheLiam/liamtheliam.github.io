@@ -102,6 +102,9 @@ header {
 .hyperlink_underline {
 	text-decoration: underline;
 }
+.lightskyblue_text {
+	color: lightskyblue;
+}
 
 
 @font-face {
